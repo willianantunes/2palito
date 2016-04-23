@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btRemover"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="@string/bt_remover"
+            />
+
+        <TextView
+            android:id="@+id/tvqtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:gravity="left"
+            android:text="0"
+            android:textColor="@color/branco"
+            />
+        
+
+
+        <Button
+            android:id="@+id/btAdicionar"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="@string/bt_adicionar"
+			/>
+        
+    </LinearLayout>
+    
+ 	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+           
+    <Button
+        android:id="@+id/btExcluir"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+
+    	android:text="@string/bt_excluir"
+    />
+    
+    <Button
+        android:id="@+id/btPronto"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="20dip" 
+    	android:text="@string/bt_pronto"
+    />
+    
+    </LinearLayout>    
+    
+</LinearLayout>

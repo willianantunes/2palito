@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<taglib version="2.0">  
+	<tlib-version>1.1</tlib-version>  
+	<uri></uri>  
+	<function>  
+		<name>capitalize</name>  
+		<function-class>br.com.aqlbras.catmovshop.portal.util.Utils</function-class>  
+		<function-signature>  
+			java.lang.String capitalize(java.lang.String)  
+		</function-signature>  
+	</function>  
+</taglib>  

@@ -1,0 +1,204 @@
+/* ------------------------------------- */
+/* ---------->>> Estrutura <<<---------- */
+/* ------------------------------------- */
+
+/* Tabela para exibição de dados  */
+
+.corpo-novoPainel-direita .tabela-padrao
+{
+	margin-top: 10px;
+}
+
+.tabela-padrao
+{
+	font: 11px arial, verdana, helvetica, sans-serif;	
+	border-top:4px solid #cfcfcf;
+	border-left:4px solid #cfcfcf;	
+	border-right:4px solid #696969;
+	border-bottom:4px solid #696969;
+	border-collapse:collapse;
+	width: 100%;
+}
+
+.tabela-padrao th 
+{
+	padding:3px;
+	border: 2px solid #cfcfcf;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tabela-padrao td 
+{	
+	padding:3px;
+	border: 2px solid #cfcfcf;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Formulário padrão para exibição de dados */
+
+.corpo-novoPainel-direita .formulario-padrao
+{
+	margin-top: 10px;
+}
+
+.formulario-padrao
+{
+	font: 13px arial, verdana, helvetica, sans-serif;
+	width: 100%;
+	display: block;
+}
+
+.formulario-padrao:after
+{
+	content: '.';
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+
+.formulario-padrao .clear
+{
+	padding-top: 8px;
+}
+
+.formulario-padrao
+{
+	font: 13px arial, verdana, helvetica, sans-serif;
+	width: 100%;
+	display: block;
+}
+
+.formulario-padrao label, .formulario-padrao input
+{
+	display: block;
+	float: left;
+	width: 345px;
+}
+
+.formulario-padrao input[type=submit]
+{
+	display: block;
+	float: none;
+	margin: 0 auto;
+	width: 80px;
+    background-color: #0a4698;
+    border: 1px solid #0e60d1;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);	
+}
+
+.formulario-padrao input[type=text], .formulario-padrao input[type=password], .formulario-padrao select, .formulario-padrao textarea
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+    border-image: none;
+    border-radius: 1px 1px 1px 1px;
+    border-right: 1px solid #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 29px;
+    margin: 0;
+    padding: 0 8px;
+}
+
+.formulario-padrao textarea
+{
+	font: 13px arial, verdana, helvetica, sans-serif;
+	width: 344px;
+	height: 100px;
+	resize: none;
+}
+
+.formulario-padrao select
+{
+    padding: 4px;	
+    width: 167px;
+    line-height: 1; 
+}
+
+
+.formulario-padrao label
+{
+	padding-top: 5px;
+	text-align: right;
+	width: 162px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.formulario-padrao label[for=password]
+{
+	padding-top: 15px;
+}
+
+.formulario-padrao br
+{
+	clear: left;
+}
+
+/* ---------->>> Diálogos <<<-----------*/
+
+div#___dialogRefresh 
+{
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: url(../img/ajax-loader.gif) no-repeat center #fff;
+    text-align: center;
+    padding: 10px;
+    font: normal 16px Tahoma, Geneva, sans-serif;
+    border: 1px solid #666;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 2;
+    overflow: auto;
+}
+
+.circleBase
+{
+	border-radius: 999px;
+	-webkit-border-radius: 999px; 
+	-moz-border-radius: 999px;
+}
+
+.circleBase p
+{
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 1px;
+	padding-top: 9px;
+	text-align: center;	
+}
+
+.circleType1
+{
+	width: 30px;
+	height: 30px;
+	background: yellow;
+	border: 1px solid red;
+	z-index: 1; 
+	position: absolute;	
+	display: none;
+}
+
+.circleNotification
+{ 
+	left: 155px; 
+	top: 7px;	
+}
+
+.circleRequests
+{
+	left: 277px; 
+	top: 7px;
+}
+

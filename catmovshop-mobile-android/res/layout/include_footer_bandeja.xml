@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="40dp"
+	android:gravity="center"
+	android:background="@drawable/shape_footer"
+>
+
+    <TextView
+        android:id="@+id/lblTotalBandeja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: "
+        android:textColor="@color/vermelho" />
+			
+		<TextView
+			android:id="@+id/tQtdItensBandeja"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/preto"
+			android:text="   "
+			style="@style/texto12Negrito"
+		/>
+							
+		<TextView
+			android:id="@+id/lblItensBandeja"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/preto"
+			android:text="Item(ns) de "
+			style="@style/texto12"
+		/>
+							
+		<TextView
+			android:id="@+id/tQtdFornecedoresBandeja"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/preto"
+			android:text="   "
+			style="@style/texto12Negrito"
+		/>
+							
+		<TextView
+			android:id="@+id/lblFornecedoresBandeja"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/preto"
+			android:text="Fornecedor(es)."
+			style="@style/texto12"
+		/>
+
+		<TextView
+		    android:id="@+id/lblTotalBandeja"
+		    style="@style/texto12Negrito"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Valor R$: "
+		    android:textColor="@color/vermelho" />
+          
+		<TextView
+			android:id="@+id/tTotalBandeja"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/preto"
+			android:text="  "
+			style="@style/texto12Negrito"
+		/>		      
+		     
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<!-- http://docs.jboss.org/hibernate/core/3.3/reference/en/html/session-configuration.html#configuration-optional -->
+<hibernate-configuration>
+
+	<session-factory>	
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/doispalito</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password"></property>
+		
+		<property name="hibernate.hbm2ddl.auto">update</property><!-- validate | update | create | create-drop -->
+		<property name="hibernate.format_sql">true</property>		
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property>
+
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Brand" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.BusinessHour" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.ComboProduct" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.CommercialGroup" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.CommercialRoom" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.CustomerOrder" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.CustomerOrderStatus" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Establishment" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.EstablishmentProfile" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Independent" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Ingredient" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Phone" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Position" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Product" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.ProductItem" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.ProductType" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Recommendation" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.Shopping" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.SingleProduct" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.User" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.UserProfile" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.UserProfileType" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.common.AbstractEntity" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.granulation.Address" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.granulation.City" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.granulation.District" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.granulation.Location" />
+		<mapping class="br.com.aqlbras.doispalito.portal.model.granulation.State" />
+	
+	</session-factory>
+
+</hibernate-configuration>
+	

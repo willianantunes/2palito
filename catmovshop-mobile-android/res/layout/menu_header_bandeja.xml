@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layoutHeader"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="100dp"
+	android:gravity="center"
+	android:background="@color/cinza_c"
+    >
+	<com.google.android.apps.iosched.ui.widget.DashboardLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+	>
+
+		<Button
+			android:id="@+id/btItens"
+			android:text="@string/bt_itens"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+		<Button
+			android:id="@+id/btBandejasFechadas"
+			android:text="Comprar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+
+		
+	</com.google.android.apps.iosched.ui.widget.DashboardLayout>
+</LinearLayout>

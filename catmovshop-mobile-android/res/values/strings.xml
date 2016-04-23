@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Catmovshop</string>
+    <string name="aguarde">Por favor aguarde...</string>
+    <string name="copyright">Aqlbras - Todos os direitos reservados</string>
+    <string name="tituloPrincipal">Praça de alimentação virtual</string>
+    <!-- Mensagens -->
+    <string name="erro_conexao_indisponivel">Conexão indisponível, por favor ative sua rede móvel ou Wi-Fi.</string>
+    <string name="erro_io">Ooops, sistema indisponível no momento.</string>
+    <!-- Labels -->
+    <string name="abrirSite">Abrir o Site</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="busca">Buscar</string>
+    
+    <string name="menu_cardapio">Cardápio</string>
+    <string name="menu_configuracoes">Configurações</string>
+    <string name="menu_historico">Histórico</string>
+    <string name="menu_bandeja">Bandeja</string>
+    <string name="menu_pedidos">Pedidos</string>
+    
+    
+    <string name="bt_autenticar">OK</string>
+    <string name="bt_esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="bt_nao_sou_cadastrado">Não sou cadastrado</string>  
+    <string name="bt_fornecedores">Fornecedores</string>    
+    <string name="bt_itens">Itens</string>    
+    <string name="bt_promocoes">Promoções</string>      
+    <string name="bt_bandejas_fechadas">Bandejas Fechadas</string> 
+    <string name="bt_adicionar">+</string>    
+    <string name="bt_remover">-</string>      
+    <string name="bt_excluir">Excluir</string>  
+    <string name="bt_pronto">Pronto</string>                
+    
+    <string name="nome">Nome</string>
+    <string name="descricao">Descrição em até 4 linhas</string>
+    <string name="sobre">Sobre</string>
+    <string name="lbl_usuario">Usuário</string>
+    <string name="lbl_senha">Senha</string>
+</resources>
