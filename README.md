@@ -23,6 +23,6 @@ Eliminar filas para realização de pedidos.
 
 ## Equipe de desenvolvimento
 
-[Bruno Alves](https://github.com/brunoooalves)
-[Wellington Almeida](https://github.com/wpgalmeida)
-[Willian Antunes](http://willianantunes.blogspot.com.br/)
+- [Bruno Alves](https://github.com/brunoooalves)
+- [Wellington Almeida](https://github.com/wpgalmeida)
+- [Willian Antunes](http://willianantunes.blogspot.com.br/)
