@@ -14,8 +14,8 @@
 	>
 
 		<Button
-			android:id="@+id/btItens"
-			android:text="@string/bt_itens"
+			android:id="@+id/btCancelar"
+			android:text="@string/bt_cancelar"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:drawableTop="@drawable/btn_sobre"
@@ -25,8 +25,8 @@
 			android:textColor="@color/preto"
 		/>
 		<Button
-			android:id="@+id/btBandejasFechadas"
-			android:text="Comprar"
+			android:id="@+id/btComprar"
+			android:text="@string/bt_comprar"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:drawableTop="@drawable/btn_sobre"

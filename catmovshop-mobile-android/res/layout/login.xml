@@ -7,7 +7,7 @@
     android:padding="10dp" >
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editText_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btAutenticar"
@@ -49,7 +49,7 @@
         android:id="@+id/btEsqueciSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/editText1"
+        android:layout_alignRight="@+id/editText_login"
         android:layout_alignTop="@+id/btAutenticar"
         android:layout_marginRight="22dp"
         android:layout_marginTop="52dp"
@@ -64,7 +64,7 @@
         android:id="@+id/lbl_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText2"
+        android:layout_above="@+id/editText_password"
         android:layout_alignRight="@+id/lbl_usuario"
         android:text="@string/lbl_senha" />
 
@@ -72,16 +72,16 @@
         android:id="@+id/lbl_usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText1"
-        android:layout_alignLeft="@+id/editText1"
+        android:layout_above="@+id/editText_login"
+        android:layout_alignLeft="@+id/editText_login"
         android:text="@string/lbl_usuario" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/editText_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/lbl_senha"
-        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignLeft="@+id/editText_password"
         android:layout_marginBottom="21dp"
         android:ems="10"
         android:inputType="textEmailAddress" />

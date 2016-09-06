@@ -42,7 +42,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginRight="5dp"
 			android:orientation="vertical"
-			android:layout_marginLeft="6dp"
+			android:layout_marginLeft="1dp"
 		>
 			<!-- Nome do Item -->
 			<TextView
@@ -64,39 +64,20 @@
                   style="@style/texto12"
                   
 			/>
-            	<LinearLayout
-					android:layout_width="wrap_content" 
-					android:layout_height="wrap_content"
-					android:layout_marginRight="5dp"
+            	<TableLayout
+					android:layout_width="fill_parent" 
+					android:layout_height="fill_parent"
 					android:orientation="horizontal"
-					android:layout_marginLeft="6dp"
 				>
-					<!-- Nome do Item -->
-					
-					<TextView
-						android:id="@+id/lblQuantidade"
-						android:layout_width="fill_parent"
-						android:layout_height="wrap_content" 
-						android:textColor="@color/preto"
-						android:text="Qtd: "
-						style="@style/texto12Negrito"
-					/>
-										
-					<TextView
-						android:id="@+id/tQuantidade"
-						android:layout_width="fill_parent"
-						android:layout_height="wrap_content" 
-						android:textColor="@color/vermelho"
-						android:text="0       "
-						style="@style/texto12"
-					/>
-										
+					<TableRow>
+
+
 					<TextView
 						android:id="@+id/lblPreco"
 						android:layout_width="fill_parent"
 						android:layout_height="wrap_content" 
 						android:textColor="@color/preto"
-						android:text="R$: "
+						android:text="@string/lbl_preco"
 						style="@style/texto12Negrito"
 					/>
 										
@@ -105,29 +86,13 @@
 						android:layout_width="fill_parent"
 						android:layout_height="wrap_content" 
 						android:textColor="@color/vermelho"
-						android:text="90,00    "
+						android:text="00,00"
 						style="@style/texto12"
 					/>
 
-					<TextView
-					    android:id="@+id/lblTotal"
-					    style="@style/texto12Negrito"
-					    android:layout_width="fill_parent"
-					    android:layout_height="wrap_content"
-					    android:text="Total: "
-					    android:textColor="@color/preto" />
 		           
-					<TextView
-						android:id="@+id/tTotal"
-						android:layout_width="fill_parent"
-						android:layout_height="wrap_content" 
-						android:textColor="@color/vermelho"
-						android:text="00,00    "
-						style="@style/texto12"
-		
-					/>		           
-		            	
-				</LinearLayout>	
+		            </TableRow>	
+				</TableLayout>	
 		</LinearLayout>
 
 	</LinearLayout>

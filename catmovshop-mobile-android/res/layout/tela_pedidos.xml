@@ -2,12 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#ffffff"
-    android:orientation="vertical"
-    android:padding="10dp" >
-    <TextView
+    android:background="@color/fundo"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include layout="@layout/cabecalho_tela_pedidos" />
+ 
+    <ListView
+        android:id="@+id/lvItens"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Essa será a tela de pedidos" />
+        android:layout_weight="1"
+        android:cacheColorHint="@color/transparente" />
 
 </LinearLayout>

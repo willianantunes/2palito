@@ -18,7 +18,7 @@ public class Usuario
 	private String email;
 	private PerfilUsuario perfilUsuario;
 	private Bandeja bandeja;
-	private Collection<Pedido> pedidos;	
+	
 	
 	// the constructor is private in a singleton class
 	private Usuario()
@@ -32,7 +32,6 @@ public class Usuario
 		this.email = null;
 		this.perfilUsuario = null;
 		this.bandeja = null;
-		this.pedidos = null;
 	}
 	
 	public static Usuario getInstance()
@@ -41,7 +40,86 @@ public class Usuario
 			usuario = new Usuario();
 		}
 		return usuario;
-	}	
-	
+	}
+
+	public static Usuario getUsuario() {
+		return usuario;
+	}
+
+	public static void setUsuario(Usuario usuario) {
+		Usuario.usuario = usuario;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public DateTime getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(DateTime dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
+	public DateTime getDataCadastro() {
+		return dataCadastro;
+	}
+
+	public void setDataCadastro(DateTime dataCadastro) {
+		this.dataCadastro = dataCadastro;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public PerfilUsuario getPerfilUsuario() {
+		return perfilUsuario;
+	}
+
+	public void setPerfilUsuario(PerfilUsuario perfilUsuario) {
+		this.perfilUsuario = perfilUsuario;
+	}
+
+	public Bandeja getBandeja() {
+		return bandeja;
+	}
+
+	public void setBandeja(Bandeja bandeja) {
+		this.bandeja = bandeja;
+	}
 
 }

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:background="@color/fundo"
+>
+	<include layout="@layout/cabecalho_tela_itens" />
+
+	<com.google.android.apps.iosched.ui.widget.DashboardLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+	>
+		<Button
+			android:id="@+id/btBebidas"
+			android:text="@string/menu_bebida"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+
+		<Button
+			android:id="@+id/btLanches"
+			android:text="@string/menu_lanche"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+
+		<Button
+			android:id="@+id/btDoces"
+			android:text="@string/menu_doce"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+		<Button
+			android:id="@+id/btComida"
+			android:text="@string/menu_comida"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>	
+		<Button
+			android:id="@+id/btTodos"
+			android:text="@string/menu_todos"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>	
+		
+	</com.google.android.apps.iosched.ui.widget.DashboardLayout>
+	<include layout="@layout/include_footer" />
+</LinearLayout>

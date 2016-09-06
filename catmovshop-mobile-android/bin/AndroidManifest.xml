@@ -29,13 +29,18 @@
         </activity>
         
         <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaPrincipalActivity"></activity>
-        <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaBandejaActivity"></activity>
-        <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaCardapioActivity"></activity>
+        <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaBandejaActivity"
+					android:launchMode="singleTop">
+            	  </activity>
+        <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaFornecedoresActivity"></activity>
         <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaConfiguracoesActivity"></activity>
         <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaHistoricoActivity"></activity>
         <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaPedidosActivity"></activity>
+        <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaCategoriaItensActivity"></activity>        
+        <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.TelaItensActivity"></activity>
         <activity android:name="br.com.aqlbras.catmovshop.mobile.android.activity.AlertaActivity" 
        	     	  android:theme="@android:style/Theme.Dialog" 
+       	     	  android:noHistory="true"
        	     	  android:label="Alterar quantidade de itens"></activity>
     </application>
 

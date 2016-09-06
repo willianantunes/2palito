@@ -15,6 +15,6 @@ public class TelaHistoricoActivity extends Activity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.tela_historico);
+		setContentView(R.layout.tela_favorito);
 	}
 }

@@ -14,8 +14,8 @@
 		android:layout_weight="1"
 	>
 		<Button
-			android:id="@+id/btCardapio"
-			android:text="@string/menu_cardapio"
+			android:id="@+id/btRestaurante"
+			android:text="@string/menu_restaurante"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:drawableTop="@drawable/btn_sobre"
@@ -24,9 +24,10 @@
 			android:textStyle="bold"
 			android:textColor="@color/preto"
 		/>
+
 		<Button
-			android:id="@+id/btConfiguracoes"
-			android:text="@string/menu_configuracoes"
+			android:id="@+id/btItem"
+			android:text="@string/menu_item"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:drawableTop="@drawable/btn_sobre"
@@ -35,17 +36,7 @@
 			android:textStyle="bold"
 			android:textColor="@color/preto"
 		/>
-		<Button
-			android:id="@+id/btHistorico"
-			android:text="@string/menu_historico"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:drawableTop="@drawable/btn_sobre"
-			android:drawablePadding="10dp"
-			android:background="@null"
-			android:textStyle="bold"
-			android:textColor="@color/preto"
-		/>
+
 		<Button
 			android:id="@+id/btBandeja"
 			android:text="@string/menu_bandeja"
@@ -67,7 +58,31 @@
 			android:background="@null"
 			android:textStyle="bold"
 			android:textColor="@color/preto"
-		/>		
+		/>	
+
+		<Button
+			android:id="@+id/btFavorito"
+			android:text="@string/menu_favorito"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+		
+		<Button
+			android:id="@+id/btConfiguracoes"
+			android:text="@string/menu_configuracoes"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/btn_sobre"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
 		
 	</com.google.android.apps.iosched.ui.widget.DashboardLayout>
 	<include layout="@layout/include_footer" />

@@ -7,18 +7,25 @@
     <!-- Mensagens -->
     <string name="erro_conexao_indisponivel">Conexão indisponível, por favor ative sua rede móvel ou Wi-Fi.</string>
     <string name="erro_io">Ooops, sistema indisponível no momento.</string>
+    <string name="erro_login">Login ou senha inválida!</string>
     <!-- Labels -->
     <string name="abrirSite">Abrir o Site</string>
     <string name="atualizar">Atualizar</string>
     <string name="busca">Buscar</string>
     
-    <string name="menu_cardapio">Cardápio</string>
-    <string name="menu_configuracoes">Configurações</string>
-    <string name="menu_historico">Histórico</string>
+    <string name="menu_restaurante">Restaurantes</string>
+    <string name="menu_item">Categorias</string>
+    <string name="menu_cardapio">Cardápio</string>    
     <string name="menu_bandeja">Bandeja</string>
-    <string name="menu_pedidos">Pedidos</string>
-    
-    
+    <string name="menu_pedidos">Pedidos</string>    
+	<string name="menu_favorito">Favoritos</string>
+    <string name="menu_configuracoes">Configurações</string>
+    <string name="menu_bebida">Bebidas</string>
+    <string name="menu_lanche">Lanches</string>    
+	<string name="menu_doce">Doces</string>
+    <string name="menu_comida">Comidas</string>
+    <string name="menu_todos">Todos</string>
+            
     <string name="bt_autenticar">OK</string>
     <string name="bt_esqueci_minha_senha">Esqueci minha senha</string>
     <string name="bt_nao_sou_cadastrado">Não sou cadastrado</string>  
@@ -30,10 +37,16 @@
     <string name="bt_remover">-</string>      
     <string name="bt_excluir">Excluir</string>  
     <string name="bt_pronto">Pronto</string>                
-    
+    <string name="bt_comprar">Comprar</string>  
+    <string name="bt_cancelar">Cancel</string>   
+        
     <string name="nome">Nome</string>
     <string name="descricao">Descrição em até 4 linhas</string>
     <string name="sobre">Sobre</string>
     <string name="lbl_usuario">Usuário</string>
     <string name="lbl_senha">Senha</string>
+    <string name="lbl_preco">R$: </string>   
+    <string name="lbl_quantidade">Qtd: </string>
+    <string name="lbl_total">Total: </string>       
+
 </resources>
